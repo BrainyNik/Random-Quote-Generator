@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+.App {
+  
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 1.2rem;
+}
+.loader{
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: snow;
+height: 100vh;
+}
+.loader img{
+  border-radius: 50%;
+}
+.carousel{
+  user-select: none;
+  background-color: #33333398;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.img_container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.img_container img{
+  display: block;
+  width: 100%;
+  object-fit: contain;
+   filter: blur(2px);
+}
+
+.quotes{
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 2em;
+  max-width: 400px;
+  /* background-color: rgba(240, 248, 255, 0.438); */
+  background-color: rgba(0,0, 0, 0.8);
+  box-shadow: 1px 1px 8px #535353;
+  border-radius: 5px;
+}
+.quotes p{
+  color: snow;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 6px rgb(143, 143, 143);
+}
+.quotes .category{
+  max-height: 200px;  
+  width: 100%;
+  /* padding: 0.5em; */
+}
+.quotes button {
+  font-family:'Patrick Hand SC', cursive; ;
+  font-size: 1.1rem;
+  color: rgb(211, 211, 211);
+  padding: 0.2em;
+  opacity: 0.7;
+  outline: none;
+  border: none;
+  background: none;
+  /* background-color: rgba(240, 248, 255, 0.438); */
+  /* box-shadow: 1px 1px 8px #888888; */
+
+}
+
+.quotes button:hover{
+  opacity: 1;
+  color: snow;
+}
+
+li{
+  list-style: none;
+
+}
+.cat_btn{
+  outline: none;
+  border: none;
+  font-family:'Patrick Hand SC', cursive; ;
+  font-size: 1.01rem;
+  padding: 0.3em 0.5em;
+  background: none;
+  color: snow;
+  /* background-color: rgba(240, 248, 255, 0.411); */
+}
+
+.categories{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 5px;
+}
+
+
+@media screen and (max-width: 1000px){
+
+  .quotes{
+    padding: 1em;
+    max-width: 300px;
+  }
+  
+  .img_container img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .categories{
+  max-height: 100px;
+    overflow-y: auto;
+  }
+}
