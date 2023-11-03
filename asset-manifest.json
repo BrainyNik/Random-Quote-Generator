@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Random-Quote-Generator/static/css/main.a99304b4.css",
+    "main.js": "/Random-Quote-Generator/static/js/main.163aafc6.js",
+    "static/media/pexels-frans-van-heerden-1022692.jpg": "/Random-Quote-Generator/static/media/pexels-frans-van-heerden-1022692.8efdae8a5e5e532306fd.jpg",
+    "static/media/pexels-adrien-olichon-2387819.jpg": "/Random-Quote-Generator/static/media/pexels-adrien-olichon-2387819.08b1dd8bc5fdb0e95012.jpg",
+    "static/media/pexels-adrien-olichon-2387793.jpg": "/Random-Quote-Generator/static/media/pexels-adrien-olichon-2387793.85fbc2d81eb844fe630e.jpg",
+    "static/media/pexels-balamurugan-anbazhagan-763103.jpg": "/Random-Quote-Generator/static/media/pexels-balamurugan-anbazhagan-763103.84a8319fa0249574dc99.jpg",
+    "static/media/harald-pliessnig-mkVvTMXxdYc-unsplash.jpg": "/Random-Quote-Generator/static/media/harald-pliessnig-mkVvTMXxdYc-unsplash.01d2ca1e5eff3d58102d.jpg",
+    "static/media/breno-machado-in9-n0JwgZ0-unsplash.jpg": "/Random-Quote-Generator/static/media/breno-machado-in9-n0JwgZ0-unsplash.46f5c4d1dc1a692df251.jpg",
+    "static/media/pexels-toni-cuenca-619419.jpg": "/Random-Quote-Generator/static/media/pexels-toni-cuenca-619419.eef04ecaa489dd64695d.jpg",
+    "static/media/pexels-pixabay-53436.jpg": "/Random-Quote-Generator/static/media/pexels-pixabay-53436.04906bbdae879610d249.jpg",
+    "static/media/pexels-alex-conchillos-3648850.jpg": "/Random-Quote-Generator/static/media/pexels-alex-conchillos-3648850.fca9f9788eb2e0b6074b.jpg",
+    "static/media/pexels-dương-nhân-1529881.jpg": "/Random-Quote-Generator/static/media/pexels-dương-nhân-1529881.e5e6c27e75af0b8b902e.jpg",
+    "static/media/pexels-life-of-pix-316902.jpg": "/Random-Quote-Generator/static/media/pexels-life-of-pix-316902.ab577f3055330bb04752.jpg",
+    "static/media/pexels-francesco-ungaro-396547.jpg": "/Random-Quote-Generator/static/media/pexels-francesco-ungaro-396547.99d217361678b1895ec6.jpg",
+    "static/media/revicons.eot": "/Random-Quote-Generator/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Random-Quote-Generator/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Random-Quote-Generator/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Random-Quote-Generator/index.html",
+    "main.a99304b4.css.map": "/Random-Quote-Generator/static/css/main.a99304b4.css.map",
+    "main.163aafc6.js.map": "/Random-Quote-Generator/static/js/main.163aafc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a99304b4.css",
+    "static/js/main.163aafc6.js"
+  ]
+}
