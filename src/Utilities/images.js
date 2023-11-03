@@ -10,6 +10,35 @@ import img8 from "../assets/pexels-frans-van-heerden-1022692.jpg";
 import img9 from "../assets/pexels-life-of-pix-316902.jpg";
 import img10 from "../assets/pexels-pixabay-53436.jpg";
 import img11 from "../assets/pexels-toni-cuenca-619419.jpg";
+import img12 from "../assets/wp2993789-dark-aesthetic-pc-wallpapers.jpg";
+import img13 from "../assets/wp3774906-dark-aesthetic-pc-wallpapers.jpg";
+import img14 from "../assets/wp4468225-dark-aesthetic-pc-wallpapers.jpg";
+import img15 from "../assets/wp4844304-dark-aesthetic-pc-wallpapers.jpg";
+import img16 from "../assets/wp5060550-dark-aesthetic-pc-wallpapers.jpg";
+import img18 from "../assets/wp5541214-dark-aesthetic-pc-wallpapers.jpg";
+import img19 from "../assets/wp5792127-dark-aesthetic-pc-wallpapers.jpg";
+import img20 from "../assets/wp5792187-dark-aesthetic-pc-wallpapers.png";
 
-const imgArray = [img0,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11]
+const imgArray = [
+  img18,
+  img19,
+  img20,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img0,
+  img1,
+  img2,
+];
 export default imgArray;

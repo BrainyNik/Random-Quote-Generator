@@ -1,4 +1,4 @@
-const category = [
+const categories = [
   "happiness",
   "alone",
   "anger",
@@ -38,7 +38,7 @@ const category = [
   "morning",
 ];
 function GenerateRandomCategory() {
-  const randomIndex = Math.floor(Math.random() * category.length);
-  return category[randomIndex];
+  const randomIndex = Math.floor(Math.random() * categories.length);
+  return categories[randomIndex];
 }
-module.exports = {GenerateRandomCategory, category};
+module.exports = { GenerateRandomCategory, categories };

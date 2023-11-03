@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Quotes from "../Quotes";
+
 import imgArray from "../Utilities/images";
 import loader from './luffyy.gif'
+import Quotes from "./Quotes";
 
 const SliderCarousel = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,7 +26,7 @@ const SliderCarousel = () => {
       .catch((error) => {
         // Handle errors, if any
         console.error("Error loading images:", error);
-        setIsLoading(false);
+        setIsLoading(true);
       });
   }, []);
 
@@ -55,20 +56,7 @@ const SliderCarousel = () => {
         <div className="loader">
           <img src={loader} alt="Loading..." />
           <p>Loading...</p>
-          {/* <div className="di">
-            {" "}
-            <iframe
-              src="https://giphy.com/embed/VApOqITOXZAd2"
-              width="480"
-              height="480"
-              frameBorder="0"
-              class="giphy-embed"
-              allowFullScreen
-            ></iframe>
-            <p>
-              <a href="https://giphy.com/gifs/luffy-VApOqITOXZAd2"></a>
-            </p>
-          </div> */}
+      
         </div>
       ) : (
         <div>
